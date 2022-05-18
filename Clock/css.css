@@ -1,0 +1,42 @@
+html{
+    font-size: 10px;
+}
+body{
+    background-color: rgb(113, 102, 102);
+}
+.clock{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 20px solid white;
+    border-radius: 50%;
+    padding: 7rem;
+
+}
+.clock-face{
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  border-radius: 50%;
+}
+.hand{
+    width: 50%;
+    height: 6px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    
+    transition: all 0.5s ease-out;
+}
+.hour-hand{
+    margin-left: 17px;
+    top: 50%;
+    width: 40%;
+}
